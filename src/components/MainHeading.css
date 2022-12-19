@@ -11,3 +11,22 @@
     flex-direction: column;
     color: white;
 }
+
+.left {
+    margin: 20px;
+    text-align: left;
+    
+}
+
+.main-text {
+    color: white;
+}
+
+.Link {
+    color: white;
+}
+
+.right {
+    margin: 20px;
+    text-align: right;
+}

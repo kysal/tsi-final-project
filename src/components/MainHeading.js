@@ -3,11 +3,16 @@ import './MainHeading.css'
 
 function MainHeading() {
     return (
-        <Link to={'/'}>
-            <div className='main-title'>
-                <h1>Movie Rater</h1>
-            </div>
-        </Link>
+        
+        <div className='main-title'>
+            <span className='left'>
+                <Link to={'/'}>
+                    <span className='main-text'>
+                        <h1>Movie Rater</h1>
+                    </span>
+                </Link>
+            </span>
+        </div>
     )
 }
 

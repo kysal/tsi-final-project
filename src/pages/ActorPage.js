@@ -1,11 +1,14 @@
+import { useParams } from "react-router-dom";
+import Actor from "../components/Actor";
 
 
 function ActorPage() {
 
+    const params = useParams()
 
     return (
-        <div>
-            This is the actor page!
+        <div className="main-content">
+            <Actor actorId={params.actorId} />
         </div>
     )
 }
