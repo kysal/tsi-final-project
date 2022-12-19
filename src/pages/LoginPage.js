@@ -1,11 +1,13 @@
+import LoginContainer from "../components/LoginContainer";
+import LoginForm from "../components/LoginContainer";
 
 
 function LoginPage() {
 
 
     return (
-        <div>
-            This is the Login Page!
+        <div className="main-content">
+            <LoginContainer />
         </div>
     )
 }
