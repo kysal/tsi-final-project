@@ -11,7 +11,7 @@ import MainHeading from './components/MainHeading';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App app-padding">
 
         <MainHeading />
 
@@ -31,7 +31,6 @@ function App() {
           <Route path='login' element={<LoginPage />} />
 
         </Routes>
-
       </div>
     </Router>
   );
