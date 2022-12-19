@@ -1,3 +1,4 @@
+import FilmList from "../components/FilmList";
 
 
 function FilmListPage() {
@@ -5,7 +6,7 @@ function FilmListPage() {
 
     return (
         <div>
-            This is the film list page!
+            <FilmList />
         </div>
     )
 }

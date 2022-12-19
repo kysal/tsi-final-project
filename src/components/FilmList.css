@@ -1,0 +1,13 @@
+.film-list-item {
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    width: calc(100% - 100px);
+    color: black;
+}
+
+.Pagination {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
